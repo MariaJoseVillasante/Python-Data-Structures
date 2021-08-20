@@ -21,4 +21,7 @@ for line in handle:
     
 for k,v in sorted(counts.items()):
     print(k,v)
-        
+ 
+ 
+#ordenar al revés 
+#counts = sorted(counts, reverse=True)
