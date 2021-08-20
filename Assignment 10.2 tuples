@@ -16,12 +16,13 @@ for line in handle:
     #hace el dict
     counts[hour[0]] = counts.get(hour[0],0) + 1
     
-#List comprehension
-#print(sorted([(k,v) for k,v in counts.items()]))
-    
+
 for k,v in sorted(counts.items()):
     print(k,v)
  
  
 #ordenar al revés 
 #counts = sorted(counts, reverse=True)
+#List comprehension
+#print(sorted([(v,k) for k,v in counts.items()]))
+    
